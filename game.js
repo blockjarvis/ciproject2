@@ -40,3 +40,12 @@ function turnBackCards() {
         lock = false;
     }, 950);
 }
+
+/*-- ===== shuffle ==== -- */
+function shuffle() {
+    cards.forEach(card => {
+        let randomPos = Math.floor(Math.random() * 20);
+        card.style.order = randomPos;
+    });
+}
+shuffle();
