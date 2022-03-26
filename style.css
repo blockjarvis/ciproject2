@@ -4,3 +4,32 @@ body {
     background-image: url("images/background.jpg");
     background-color: #cccccc;
    }
+
+/*-- ===== Newsletter style ==== -- */
+
+#subscribe {
+    display: flex;
+    background-image: url(images/newsletterbackground.png);
+    background-color: #cccccc;
+    align-items: center;
+    padding-left: 250px;
+    justify-content: space-around;
+   }
+
+/*-- ===== FONT STYLES ==== -- */
+
+ /*-- ===== H1 font style ==== -- */
+h1 {
+    text-align: center;
+    color:white; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+ /*-- ===== P font style ==== -- */
+ p {
+    text-align: center;
+    color:white; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size:18px ;
+    }
