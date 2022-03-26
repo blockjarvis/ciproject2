@@ -67,21 +67,32 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
 }
-.ccard{
-    max-width: 120px;   
+.card {
+    max-width: 120px;  
+    transform-style: preserve-3d;
+    transition: transform.5s; 
 }
 
-.ccard__image{
+.card__face {
     display:block;
     width: 100%;
 }
 
-.up{
+.card__face--up {
     display: none;
+}
+
+.card.turn {
+    transform: rotateY(180deg);
+}
+
+.card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
 }
 
 /*-- ===== align style ==== -- */
 
-.align{
+.align {
     text-align: center;
 }
