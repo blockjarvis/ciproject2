@@ -6,7 +6,7 @@ let firstCard, secondCard;
 function onClick() {
     if (lock) return;
     if (this === firstCard) return;
-
+console.log("click")
     this.classList.toggle('turn');
     if (!hasTurnedCard) {
         hasTurnedCard = true;

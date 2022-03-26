@@ -68,18 +68,20 @@ h1 {
     flex-direction: row;
 }
 .card {
-    max-width: 120px;  
+    width: 120px;  
+    position: relative;
+    transform: scale(1);
+    transition: transform .6s;
     transform-style: preserve-3d;
-    transition: transform.5s; 
-}
-
-.card__face {
-    display:block;
-    width: 100%;
 }
 
 .card__face--up {
-    display: none;
+    transform: rotateY(180deg)
+    
+}
+
+.card__face--down {
+    padding: 1px;
 }
 
 .card.turn {
@@ -87,10 +89,16 @@ h1 {
 }
 
 .card:active {
-    transform: scale(0.97);
-    transition: transform .2s;
+    transform: scale(1.3);
+    transition: transform .5s;
 }
 
+.card__face--up,
+.card__face--down {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+}
 /*-- ===== align style ==== -- */
 
 .align {
