@@ -73,6 +73,7 @@ h1 {
     transform: scale(1);
     transition: transform .6s;
     transform-style: preserve-3d;
+    background-color: rgba(0,0,0,0);
 }
 
 .card__face--up {
@@ -98,6 +99,7 @@ h1 {
     position: absolute;
     width: 100%;
     backface-visibility: hidden;
+    
 }
 /*-- ===== align style ==== -- */
 
