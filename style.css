@@ -57,3 +57,8 @@ h1 {
     background-color: #f0c234;
     color: white;
 }
+    /*-- ===== game style ==== -- */
+
+.up{
+    display: none;
+}
