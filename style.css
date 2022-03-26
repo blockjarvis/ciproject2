@@ -9,8 +9,7 @@ body {
 
 #subscribe {
     display: flex;
-    background-image: url(images/newsletterbackground.png);
-    background-color: #cccccc;
+    background-color: #f0c234;
     align-items: center;
     padding-left: 250px;
     justify-content: space-around;
@@ -77,8 +76,7 @@ h1 {
 }
 
 .card__face--up {
-    transform: rotateY(180deg)
-    
+    transform: rotateY(180deg);  
 }
 
 .card__face--down {
@@ -105,4 +103,9 @@ h1 {
 
 .align {
     text-align: center;
+}
+
+#footerbot {
+    display: flex;
+    justify-content: space-evenly;
 }
