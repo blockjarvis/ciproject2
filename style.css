@@ -34,3 +34,26 @@ h1 {
     font-weight: 400;
     font-size:18px ;
     }
+
+    /*-- ===== (buttonsm) style ==== -- */
+.buttonsm {
+    background-color: #303030;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+  .buttonsm {border-radius: 7px;}
+  
+  .buttonsm:hover {
+    background-color: #47C0FE;
+    color: white;
+}
