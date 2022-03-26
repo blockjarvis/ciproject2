@@ -16,5 +16,27 @@ console.log("click")
 
     hasTurnedCard = false;
     secondCard = this;
+    checkForPair();
 }
     cards.forEach(card => card.addEventListener('click', onClick));
+
+/*-- ===== check pair found ==== -- */
+function checkForPair() {
+    let isMatch = firstCard.dataset.type === secondCard.dataset.type;
+    isMatch ? disableCards() : turnBackCards();
+}
+
+function disableCards() {
+    firstCard.removeEventListener('click', onClick);
+    secondCard.removeEventListener('click', onClick);
+}
+
+/*-- ===== Unturn card ==== -- */
+function turnBackCards() {
+    lock = true;
+    setTimeout(() => {
+        firstCard.classList.remove('turn');
+        secondCard.classList.remove('turn');
+        lock = false;
+    }, 950);
+}
