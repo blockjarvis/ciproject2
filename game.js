@@ -3,6 +3,7 @@ let lock = false;
 let hasTurnedCard = false;
 let firstCard, secondCard;
 let pairsLeft = 10;
+document.getElementById('pairsleft').innerHTML = pairsLeft;
 
 function onClick() {
     if (lock) return;
@@ -32,6 +33,7 @@ function disableCards() {
     firstCard.removeEventListener('click', onClick);
     secondCard.removeEventListener('click', onClick);
     pairsLeft--;
+    document.getElementById('pairsleft').innerHTML = pairsLeft;
 }
 
 /*-- ===== Unturn card ==== -- */
@@ -59,3 +61,4 @@ function checkEndGame() {
         alert("Nice One!");
     }
 }
+
