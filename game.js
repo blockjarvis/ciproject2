@@ -3,7 +3,9 @@ let lock = false;
 let hasTurnedCard = false;
 let firstCard, secondCard;
 let pairsLeft = 10;
+let nomatches = 0;
 document.getElementById('pairsleft').innerHTML = pairsLeft;
+document.getElementById('nomatches').innerHTML = nomatches;
 
 function onClick() {
     if (lock) return;
@@ -44,6 +46,8 @@ function turnBackCards() {
         secondCard.classList.remove('turn');
         lock = false;
     }, 950);
+    nomatches++;
+    document.getElementById('nomatches').innerHTML = nomatches;
 }
 
 /*-- ===== shuffle ==== -- */
@@ -61,4 +65,3 @@ function checkEndGame() {
         alert("Nice One!");
     }
 }
-
