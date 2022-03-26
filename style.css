@@ -59,15 +59,29 @@ h1 {
 }
     /*-- ===== game style ==== -- */
 
-.up{
-    display: none;
-}
-
 .coingame {
     width: 600px;
     height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
+    flex-direction: row;
+}
+.ccard{
+    max-width: 120px;   
+}
+
+.ccard__image{
+    display:block;
+    width: 100%;
+}
+
+.up{
+    display: none;
+}
+
+/*-- ===== align style ==== -- */
+
+.align{
+    text-align: center;
 }
