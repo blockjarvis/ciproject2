@@ -5,26 +5,16 @@ body {
     background-color: #cccccc;
    }
 
-/*-- ===== Newsletter style ==== -- */
-
-#subscribe {
-    align-items: center;
-    background-color: #f0c234;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 250px;
-    color:black;
-   }
-
 /*-- ===== FONT STYLES ==== -- */
 
  /*-- ===== H1 font style ==== -- */
-h1 {
+h1,h2 {
     text-align: center;
     color:white; 
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
+
 
  /*-- ===== P font style ==== -- */
  p {
@@ -144,3 +134,18 @@ h1 {
    padding: 5px;
 }
 
+/*-- ===== Newsletter style ==== -- */
+
+#subscribe {
+    align-items: center;
+    background-color: #f0c234;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+}
+
+#subscribe p,  
+#subscribe h2 {
+    color: black;
+    margin-bottom: 0;
+}
