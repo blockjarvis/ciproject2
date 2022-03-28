@@ -8,11 +8,12 @@ body {
 /*-- ===== Newsletter style ==== -- */
 
 #subscribe {
-    display: flex;
-    background-color: #f0c234;
     align-items: center;
-    padding-left: 250px;
+    background-color: #f0c234;
+    display: flex;
     justify-content: space-around;
+    padding-left: 250px;
+    color:black;
    }
 
 /*-- ===== FONT STYLES ==== -- */
@@ -27,11 +28,11 @@ h1 {
 
  /*-- ===== P font style ==== -- */
  p {
-    text-align: center;
     color:white; 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     font-size:18px ;
+    font-weight: 400;
+    text-align: center;
     }
 
     /*-- ===== (buttonsm) style ==== -- */
@@ -39,15 +40,15 @@ h1 {
     background-color: #303030;
     border: none;
     color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    margin: 4px 2px;
-    cursor: pointer;
     width: 200px;
 }
   .buttonsm {border-radius: 7px;}
@@ -59,22 +60,22 @@ h1 {
     /*-- ===== game style ==== -- */
 
 .coingame {
-    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 600px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     padding-bottom: 100px;
     padding-top: 50px;
+    width: 600px;
 }
 .card {
-    width: 120px;  
+    background-color: rgba(0,0,0,0);
     position: relative;
+    transform-style: preserve-3d;
     transform: scale(1);
     transition: transform .6s;
-    transform-style: preserve-3d;
-    background-color: rgba(0,0,0,0);
+    width: 120px;  
 }
 
 .card__face--up {
@@ -96,48 +97,50 @@ h1 {
 
 .card__face--up,
 .card__face--down {
+    backface-visibility: hidden;
     position: absolute;
     width: 100%;
-    backface-visibility: hidden;
     
 }
 /*-- ===== align style ==== -- */
 
 .logo {
+    display: block;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    width:100%;
     max-width: 800px;
-    height: 100%;
-    display: block;
+    width:100%;
 }
 
 #footerbot {
-    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 
 /*-- ===== align style ==== -- */
 
 .score{
+    margin-top: 32px;
+    background:#f0c234;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
     width:fit-content;
-    background:black;
-    padding: 5px 5px;
 }
 
 .score p {
     margin-bottom: 0;
+    color:black;
 }
 
 .counter {
+   background:black;
+   border-radius: 5px;
    color:#ffffff;
-   background:#f0c234;
    font-weight: 800;
    padding: 5px;
-   border-radius: 5px;
 }
 
