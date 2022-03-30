@@ -73,7 +73,7 @@ function playAgain() {
 }
 
 
-/*-- ===== Play Again ==== -- */
+/*-- ===== Show Play Again ==== -- */
 function showButton() {
     document.getElementById('playbutton').innerHTML = '<button type="button" class="buttonsm" onclick="playAgain()">PLAY AGAIN</button>';    
 }
