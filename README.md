@@ -54,7 +54,22 @@ The purpose is to design an attractive website to play a memory game, with a sim
 
 ### Memory Game
 
------
+- Counter
+![counter](images/readme/counters.png)
+
+- Counter after a match
+![counter](images/readme/result.png)
+
+- Win Pop-up
+![counter](images/readme/winalert.png)
+
+- Play Again Button
+![counter](images/readme/playagain.png)
+Play again button will appear after the user win a match.
+
+- Board
+![counter](images/readme/game1.png)
+![counter](images/readme/game2.png)
 
 ### Footer
 
@@ -155,7 +170,7 @@ This project was developed using Visual Studio Code Insiders, committed to git a
 3. At the Settings menu, select "Pages".
 4. Select the main branch and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The live link can be found here - [Memory Challenge](https://blockjarvis.github.io/ciproject2/) 
 
 ### Forking the GitHub Repository
 
@@ -184,15 +199,10 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - FontAwesome: The icons in the footer were taken from Font Awesome.
 
 ### Media
-1. images were sourced from:
-   - 
-   - 
-   - 
-   - 
-  
-2. All icons were sourced from [Flaticon](https://www.flaticon.com/).
 
-3. Photoshop was used to make the logo and all the art, by a graphic designer (Rodrigo Lorenzo).
+1. All icons and images were sourced from [Flaticon](https://www.flaticon.com/).
+
+2. Photoshop was used to make the logo and all the art, by a graphic designer (Rodrigo Lorenzo).
 
 ### Acknowledgements
 
