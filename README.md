@@ -55,16 +55,21 @@ The purpose is to design an attractive website to play a memory game, with a sim
 ### Memory Game
 
 - Counter
+
 ![counter](images/readme/counters.png)
 
 - Counter after a match
+
 ![counter](images/readme/result.png)
 
 - Win Pop-up
+
 ![counter](images/readme/winalert.png)
 
 - Play Again Button
+
 ![counter](images/readme/playagain.png)
+
 Play again button will appear after the user win a match.
 
 - Board
