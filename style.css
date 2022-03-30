@@ -151,7 +151,7 @@ h1,h2 {
     margin-bottom: 0;
 }
 
-.playbutton{
+#playbutton{
     display:flex;
     justify-content: center;
     margin-bottom: 20px;

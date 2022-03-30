@@ -63,6 +63,7 @@ shuffle();
 function checkEndGame() {
     if (pairsLeft == 0) {
         alert("Nice One!");
+        showButton();
     }
 }
 
@@ -70,3 +71,10 @@ function checkEndGame() {
 function playAgain() {
     location.reload();
 }
+
+
+/*-- ===== Play Again ==== -- */
+function showButton() {
+    document.getElementById('playbutton').innerHTML = '<button type="button" class="buttonsm" onclick="playAgain()">PLAY AGAIN</button>';    
+}
+
