@@ -47,6 +47,7 @@ h1,h2 {
     background-color: #f0c234;
     color: white;
 }
+
     /*-- ===== game style ==== -- */
 
 .coingame {
@@ -109,7 +110,7 @@ h1,h2 {
     padding-top: 50px;
 }
 
-/*-- ===== align style ==== -- */
+/*-- ===== score counter style ==== -- */
 
 .score{
     margin-top: 32px;
@@ -148,4 +149,10 @@ h1,h2 {
 #subscribe h2 {
     color: black;
     margin-bottom: 0;
+}
+
+.playbutton{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }

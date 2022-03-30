@@ -7,10 +7,10 @@ let nomatches = 0;
 document.getElementById('pairsleft').innerHTML = pairsLeft;
 document.getElementById('nomatches').innerHTML = nomatches;
 
+/*-- ===== Turn Cards ==== -- */
 function onClick() {
     if (lock) return;
     if (this === firstCard) return;
-    console.log("click")
     this.classList.toggle('turn');
     if (!hasTurnedCard) {
         hasTurnedCard = true;
@@ -64,4 +64,9 @@ function checkEndGame() {
     if (pairsLeft == 0) {
         alert("Nice One!");
     }
+}
+
+/*-- ===== Play Again ==== -- */
+function playAgain() {
+    location.reload();
 }
