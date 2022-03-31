@@ -135,7 +135,7 @@ h1,h2 {
    padding: 5px;
 }
 
-/*-- ===== Newsletter style ==== -- */
+/*-- ===== subscribe style ==== -- */
 
 #subscribe {
     align-items: center;
@@ -150,6 +150,8 @@ h1,h2 {
     color: black;
     margin-bottom: 0;
 }
+
+/*-- ===== playagain button style ==== -- */
 
 #playbutton{
     display:flex;
