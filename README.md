@@ -26,7 +26,7 @@ The purpose is to design an attractive website to play a memory game, with a sim
 ## Design
 ### Colour Scheme
 
-- The main colours used are dark grey, white,yellow and black to give the site a clean, modern and professional look.
+- The main colours used are dark grey, white, yellow and black to give the site a clean, modern and professional look.
 
 ### Typography
 
