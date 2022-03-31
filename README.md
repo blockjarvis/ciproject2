@@ -126,8 +126,7 @@ The footer provides the user two sections, subscribe and links to the social med
 
 ![Valid e-mail](images/readme/subscribevalidation.png)
 
-- Memory Game
-the game has been tested several times, pairs match, remain unturn after a match, counters, win alert pop-up and play again button after a win.
+- The game has been tested several times, pairs match, remain unturn after a match, counters, win alert pop-up and play again button after a win.
 
 -----
 
@@ -154,16 +153,12 @@ PowerMapper was used to double-check the browser compatibility.
 
 ### Issues
 
-- 
-- 
-- 
-- 
+- if the user fails to find a match, the second attempt cannot start with the  first card chosen earlier.
+
 
 ### Known Bugs
 
 - On old devices, the images can break the layout.
-- 
-- 
 
 ## Deployment
 
