@@ -52,6 +52,10 @@ The purpose is to design an attractive website to play a memory game, with a sim
 
 ![Navbar](images/readme/navbar.png)
 
+### How to Play
+
+![howtoplay](images/readme/howtoplay.png)
+
 ### Memory Game
 
 - Counter
@@ -64,17 +68,17 @@ The purpose is to design an attractive website to play a memory game, with a sim
 
 - Win Pop-up
 
-![counter](images/readme/winalert.png)
+![winpopup](images/readme/winalert.png)
 
 - Play Again Button
 
-![counter](images/readme/playagain.png)
+![playagainbutton](images/readme/playagain.png)
 
 Play again button will appear after the user win a match.
 
 - Board
-![counter](images/readme/game1.png)
-![counter](images/readme/game2.png)
+![board1](images/readme/game1.png)
+![board2](images/readme/game2.png)
 
 ### Footer
 
